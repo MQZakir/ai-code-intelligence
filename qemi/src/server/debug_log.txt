@@ -1,0 +1,16 @@
+Starting debug test at Thu Apr 24 19:24:01 2025
+Log file location: C:\Users\MqZak\Documents\MQZ-Projects\Ender-Debugger\ender-debugger\src\server\debug_log.txt
+Testing connection to API server...
+Error connecting to API server: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /test (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022803CF38C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Testing code analysis...
+Error during analysis: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /analyze (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022803D134D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Debug test complete
+Starting debug test at Thu Apr 24 19:25:07 2025
+Log file location: C:\Users\MqZak\Documents\MQZ-Projects\Ender-Debugger\ender-debugger\src\server\debug_log.txt
+Testing connection to API server...
+API server responded with status: 200
+Response content: {"message":"API is working correctly"}
+Testing code analysis...
+Analysis response status: 200
+Analysis response content: {'message': '', 'explanation': 'This is a test explanation. The code appears to be working correctly.', 'errors': [{'line': 3, 'type': 'TestError', 'description': 'This is a test error description', 'fix': '# Fixed code would go here', 'explanation': 'This is a test explanation of the fix'}]}
+Debug test complete

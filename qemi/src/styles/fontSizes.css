@@ -1,0 +1,42 @@
+:root {
+  /* Default to medium (1) if no multiplier is set */
+  --font-size-multiplier: 1;
+}
+
+/* Apply font-size to all text elements using the multiplier */
+html {
+  font-size: 16px; /* Base font size */
+}
+
+body, button, input, select, textarea, p, span, h1, h2, h3, h4, h5, h6, a, li, div {
+  font-size: calc(1rem * var(--font-size-multiplier));
+}
+
+/* Adjust specific element size classes */
+.text-xs {
+  font-size: calc(0.75rem * var(--font-size-multiplier));
+}
+
+.text-sm {
+  font-size: calc(0.875rem * var(--font-size-multiplier));
+}
+
+.text-base {
+  font-size: calc(1rem * var(--font-size-multiplier));
+}
+
+.text-md {
+  font-size: calc(1.1rem * var(--font-size-multiplier));
+}
+
+.text-lg {
+  font-size: calc(1.25rem * var(--font-size-multiplier));
+}
+
+.text-xl {
+  font-size: calc(1.5rem * var(--font-size-multiplier));
+}
+
+.text-2xl {
+  font-size: calc(2rem * var(--font-size-multiplier));
+} 

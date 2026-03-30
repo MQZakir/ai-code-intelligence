@@ -1,0 +1,27 @@
+{
+  "python": {
+    "enabled": true,
+    "pythonPath": "python",
+    "debugPort": 5678
+  },
+  "javascript": {
+    "enabled": false,
+    "nodePath": "node",
+    "debugPort": 9229
+  },
+  "java": {
+    "enabled": false,
+    "javaPath": "java",
+    "debugPort": 5005
+  },
+  "cpp": {
+    "enabled": false,
+    "gdbPath": "gdb",
+    "debugPort": 1234
+  },
+  "csharp": {
+    "enabled": false,
+    "dotnetPath": "dotnet",
+    "debugPort": 4711
+  }
+}

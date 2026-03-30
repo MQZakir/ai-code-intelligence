@@ -1,0 +1,70 @@
+/* Theme variables */
+:root {
+  /* Default variables are set via JavaScript */
+  /* These are fallbacks in case JS fails to load */
+  
+  /* Dark theme (default) */
+  --color-primary: #E6FF4B;
+  --color-primary-rgb: 230, 255, 75;
+  --color-primaryDark: #D4ED3A;
+  --color-secondary: #4CAF50;
+  --color-accent: #E6FF4B;
+  --color-accent-rgb: 230, 255, 75;
+  --color-text: #FFFFFF;
+  --color-textSecondary: #A0A0A0;
+  --color-error: #FF5252;
+  --color-error-rgb: 255, 82, 82;
+  --color-warning: #FFA726;
+  --color-warning-rgb: 255, 167, 38;
+  --color-info: #29B6F6;
+  --color-success: #4CAF50;
+  --color-success-rgb: 76, 175, 80;
+  --color-background: #000000;
+  --color-cardBackground: #111111;
+  --color-border: #222222;
+  --color-surface: #111111;
+  --color-hover: #222222;
+  --color-gradient-primary: linear-gradient(135deg, #E6FF4B 0%, #4CAF50 100%);
+  --color-gradient-secondary: linear-gradient(135deg, #4CAF50 0%, #E6FF4B 100%);
+}
+
+/* Additional colors for specific components */
+[data-theme="dark"] {
+  --scrollbar-track: #1A1A1A;
+  --scrollbar-thumb: #E6FF4B;
+  --scrollbar-thumb-hover: #D4ED3A;
+  --selection-background: #E6FF4B;
+  --selection-text: #000000;
+}
+
+[data-theme="light"] {
+  --scrollbar-track: #E0E0E0;
+  --scrollbar-thumb: #4CAF50;
+  --scrollbar-thumb-hover: #3B9C3E;
+  --selection-background: #4CAF50;
+  --selection-text: #FFFFFF;
+}
+
+/* Theme-specific scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+::selection {
+  background: var(--selection-background);
+  color: var(--selection-text);
+} 
