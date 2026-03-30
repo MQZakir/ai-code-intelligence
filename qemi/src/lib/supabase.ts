@@ -1,8 +1,9 @@
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = 'https://ugkcvnpbyxgpcuvwrwnf.supabase.co';
-const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVna2N2bnBieXhncGN1dndyd25mIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE3OTQxMjgsImV4cCI6MjA4NzM3MDEyOH0.Y2ZV1Px-tTwoxUEep8feKbJeLW7uUKBs5ZiClGSTohU';
-const supabaseServiceKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVna2N2bnBieXhncGN1dndyd25mIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3MTc5NDEyOCwiZXhwIjoyMDg3MzcwMTI4fQ.XGxvE-JLnSCss5bjicv6upPnPHofP6RFpy2NcrmMhMs';
+// Please add your supabase credentials
+const supabaseUrl = '--';
+const supabaseAnonKey = '--';
+const supabaseServiceKey = '--';
 
 // Create two clients - one for public operations and one for admin operations
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
