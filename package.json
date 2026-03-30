@@ -1,5 +1,5 @@
 {
-  "name": "ender-debugger",
+  "name": "qemi-debugger",
   "version": "1.0.0",
   "description": "A debugging tool with TypeScript support",
   "main": "index.js",
