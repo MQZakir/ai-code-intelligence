@@ -21,9 +21,9 @@ except ImportError:
     llama_available = False
     pass
 
-# Initialize Supabase client with the same credentials from supabase.ts
-SUPABASE_URL = "https://ugkcvnpbyxgpcuvwrwnf.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVna2N2bnBieXhncGN1dndyd25mIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE3OTQxMjgsImV4cCI6MjA4NzM3MDEyOH0.Y2ZV1Px-tTwoxUEep8feKbJeLW7uUKBs5ZiClGSTohU"
+# Insert your supabase project credentials please
+SUPABASE_URL = "--"
+SUPABASE_KEY = "--"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # Set up logging to a file
