@@ -1,4 +1,4 @@
-# Ender Debugger
+# QEMI Debugger
 
 A basic debugging tool that provides real-time insights into system performance, resource utilization, and process management, with predictive insights on code and its debugging information.
 
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 ## Project Structure
 
-- `ender-debugger/` - Main application code
+- `qemi/` - Main application code
 - `test-cases/` - Test suite for functional and system testing
 - `model-training/` - LLM fine-tuning scripts
 
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 1. Start the main application:
 ```bash
-cd ender-debugger && npm run start # On powershell: cd ender-debugger; npm run start
+cd qemi && npm run start # On powershell: cd qemi; npm run start
 ```
 
 2. Access the web interface at `http://localhost:3000`
